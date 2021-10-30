@@ -142,7 +142,7 @@ HELP_MSG = "Click the button below to get help manu in your pm."
 START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
     
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/3067d3fed3808949a337c.jpg) 」────
+────「 [{}](https://te.legra.ph/file/810057b60bdb4668f285a.jpg) 」────
 *Hola! {},*
 *I am an Anime themed advance group management bot with a lot of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -160,12 +160,12 @@ Haven't slept since: {}
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add {BOT_NAME} To Your Group",
-                            url=f"t.me/{BOT_USERNAME}?startgroup=true")
+                            text=f"Add Komi To Your Group",
+                            url=f"t.me/komiXrobot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/HindiKDrama"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/mhaprvtt"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
